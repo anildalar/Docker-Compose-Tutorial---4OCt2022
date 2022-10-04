@@ -1,0 +1,15 @@
+version: '3.9'
+
+services:
+  service1:
+    build: .
+    container_name: node_app
+    ports:
+      - '5000:5000'
+    volumes:
+      - .:/app
+
+
+
+
+

@@ -1,0 +1,16 @@
+lets create a node service using docker-compose 
+
+
+Dockerfile------>Image ------> Container
+
+docker compose
+
+
+docker image build -----> Dockerfile
+docker build       -----> Dockerfile
+
+docker-compose     -----> docker-compose.yml
+
+
+service1 -> nodejs application
+service2 -> postgres database
